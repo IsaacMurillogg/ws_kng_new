@@ -6,7 +6,6 @@ use App\Events\AlertReceived;
 use App\Events\TicketCreated;
 use App\Listeners\CreateTicketFromAlert;
 use App\Listeners\SendFirebaseNotification;
-use App\Listeners\SendPusherNotification;
 use Illuminate\Auth\Events\Registered;
 use Illuminate\Auth\Listeners\SendEmailVerificationNotification;
 use Illuminate\Foundation\Support\Providers\EventServiceProvider as ServiceProvider;
